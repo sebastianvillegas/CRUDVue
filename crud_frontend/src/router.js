@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import Medicamentos from "./views/Medicamentos";
+import MedicamentoForm from "./views/MedicamentoForm";
 
 Vue.use(Router)
 
@@ -28,12 +29,12 @@ export default new Router({
     {
       path: '/medicamentos/crear',
       name: 'medicamentos-crear',
-      component: Home
+      component: MedicamentoForm
     },
     {
       path: '/medicamentos/:id/editar',
       name: 'medicamentos-editar',
-      component: Home
+      component: MedicamentoForm
     }
   ]
 })
