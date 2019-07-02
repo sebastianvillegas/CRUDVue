@@ -59,7 +59,7 @@
                         if(respuesta.statusText == "OK"){
                             router.push('/medicamentos')
                         } else {
-                            alert('Error al editar el medicamento.')
+                            alert('Error al editar el medicamento')
                         }
 
                     })
